@@ -2,36 +2,3 @@ html{
     box-sizing: border-box;
 }
 
-.box1{
-    background : repeating-linear-gradient(45deg,#ffffff,#ffffff 10px,#000000 10px,#000000 20px);
-    height: 500px;
-    margin-bottom: 1rem;
-}
-
-.box2{
-    height: 500px;
-    background-color: red;
-    margin-bottom: 1rem;
-    position: relative;
-    background-image: url(12794549_1543522415941065_7446237855869332526_n.jpg);
-    background-repeat: no-repeat;
-    background-size: 20px ;
-    background-position: bottom, right;
-}
-
-.box3{
-    height:500px;
-    margin-bottom: 1rem;
-    position: relative;
-    background-color: red;
-    background-image: url(12794549_1543522415941065_7446237855869332526_n.jpg),
-                      url(12794549_1543522415941065_7446237855869332526_n.jpg),
-                      url(12794549_1543522415941065_7446237855869332526_n.jpg),
-                      url(12794549_1543522415941065_7446237855869332526_n.jpg);
-    background-repeat: no-repeat;
-    background-size: 20px ;
-    background-position: bottom right, 
-                         bottom left, 
-                         top right,
-                         top left;
-}
